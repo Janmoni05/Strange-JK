@@ -225,3 +225,107 @@ font-family: none;
   position: sticky;
   position: -webkit-sticky;
 }
+
+
+/* opacity */
+
+.jk-smoke-me {
+  opacity: 1.0;
+}
+.jk-smoke-lg {
+  opacity: 0.5;
+}
+
+
+/* hover dropdown */
+
+.jk-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.jk-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 50px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.jk-dropdown:hover .jk-dropdown-content {
+  display: block;
+}
+
+
+/* hover */
+
+.jk-hover:hover {
+  opacity: 0.5;
+}
+
+
+
+/*hover background color*/
+
+.jk-bg-red-hover:hover {
+  background-color: red;
+}
+.jk-bg-green-hover:hover {
+  background-color: green;
+}
+.jk-bg-yellow-hover:hover {
+  background-color: yellow;
+}
+.jk-bg-blue-hover:hover {
+  background-color: #0066ff;
+}
+.jk-bg-orange-hover:hover {
+  background-color: orange;
+}
+.jk-bg-dark-hover:hover {
+  background-color: black;
+}
+.jk-bg-white-hover:hover {
+  background-color: white;
+}
+.jk-bg-pink-hover:hover {
+  background-color: pink;
+}
+.jk-bg-skyBlue-hover:hover {
+  background-color: skyblue;
+}
+
+
+
+/* hover color*/
+
+.jk-red-hover:hover {
+  color: red;
+}
+.jk-green-hover:hover {
+  color: green;
+}
+.jk-yellow-hover:hover {
+  color: yellow;
+}
+.jk-blue-hover:hover {
+  color: #0066ff;
+}
+.jk-orange-hover:hover {
+  color: orange;
+}
+.jk-dark-hover:hover {
+  color: black;
+}
+.jk-white-hover:hover {
+  color: white;
+}
+.jk-pink-hover:hover {
+  color: pink;
+}
+.jk-skyBlue-hover:hover {
+  color: skyblue;
+}
+
