@@ -1,3 +1,105 @@
-.jk-tx-red{
+* {
+  margin: 0;
+}
+center {
+  text-align: center;
+}
+right {
+  float: right;
+}
+left {
+  float: left;
+}
+
+
+/*color*/
+
+.jk-red {
   color: red;
+}
+.jk-green {
+  color: green;
+}
+.jk-yellow {
+  color: yellow;
+}
+.jk-blue {
+  color: #0066ff;
+}
+.jk-orange {
+  color: orange;
+}
+.jk-dark {
+  color: black;
+}
+.jk-white {
+  color: white;
+}
+.jk-pink {
+  color: pink;
+}
+.jk-skyBlue {
+  color: skyblue;
+}
+
+
+/* background color*/
+
+.jk-bg-red {
+  background-color: red;
+}
+.jk-bg-green {
+  background-color: green;
+}
+.jk-bg-yellow {
+  background-color: yellow;
+}
+.jk-bg-blue {
+  background-color: #0066ff;
+}
+.jk-bg-orange {
+  background-color: orange;
+}
+.jk-bg-dark {
+  background-color: black;
+}
+.jk-bg-white {
+  background-color: white;
+}
+.jk-bg-pink {
+  background-color: pink;
+}
+.jk-bg-skyBlue {
+  background-color: skyblue;
+}
+
+
+/*margin*/
+
+.jk-mg-sm {
+  margin: 5px;
+}
+.jk-mg-ma {
+  margin: 10px;
+}
+.jk-mg-lg {
+  margin: 20px;
+}
+.jk-mg-xl {
+  margin: 30px;
+}
+
+
+/*padding*/
+.jk-padding-sm {
+  padding: 3px;
+}
+.jk-padding-ma {
+  padding: 6px;
+}
+.jk-padding-lg {
+  padding: 10px;
+}
+.jk-padding-xl {
+  padding: 15px;
 }
