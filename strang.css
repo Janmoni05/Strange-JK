@@ -606,6 +606,16 @@ display: inline-block;
 border: 2px solid red;
 border-radius: 7px;
 box-sizing: border-box;
+color: #0066ff;
+}
+.jk-input:focus   {
+width: 80%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 2px solid red;
+border-radius: 7px;
+box-sizing: border-box;
 box-shadow: 2px 2px 40px 2px red;
 color: #0066ff;
 }
@@ -614,6 +624,21 @@ color: #0066ff;
 /* input animate */
 
 .jk-input-animate {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid red;
+  border-radius: 7px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  
+  color: #0066ff;
+}
+.jk-input-animate:focus {
   width: 130px;
   box-sizing: border-box;
   border: 2px solid red;
