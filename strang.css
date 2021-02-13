@@ -613,7 +613,7 @@ width: 80%;
 padding: 12px 20px;
 margin: 8px 0;
 display: inline-block;
-border: 2px solid red;
+border: 3px solid red;
 border-radius: 7px;
 box-sizing: border-box;
 box-shadow: 2px 2px 40px 2px red;
@@ -641,7 +641,7 @@ color: #0066ff;
 .jk-input-animate:focus {
   width: 130px;
   box-sizing: border-box;
-  border: 2px solid red;
+  border: 3px solid red;
   border-radius: 7px;
   font-size: 16px;
   background-color: white;
@@ -730,3 +730,17 @@ color: #0066ff;
   /* Safari 3-8 */
   transform: scale(1.5);
 }
+
+
+/* style hr */
+
+.jk-hr-solid {
+  border-top: 1px solid black;
+}
+.jk-hr-dashed {
+  border-top: 1px dashed black;
+}
+.jk-hr-dotted {
+  border-top: 1px dotted black;
+}
+
